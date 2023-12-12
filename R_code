@@ -5,10 +5,10 @@ setwd("C:/Users/Steven/Desktop") # Be aware of the direction of slashes
 getwd()
 
 # Read csv file
-apoe <- read.csv("delirium.csv")
+apoe <- read.csv("POCD.csv")
 
 # Read csv file without setting the working directory: (location+file name)
-apoe <- read.csv("C:/Users/Steven/Desktop/delirium.csv")
+apoe <- read.csv("C:/Users/Steven/Desktop/POCD.csv")
 
 # Saving data into R Data Format
 save(apoe, file = "apoe.RData")
