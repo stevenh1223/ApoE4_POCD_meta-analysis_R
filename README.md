@@ -11,7 +11,7 @@ Examined small-study effect by evaluating the symmetry of the funnel plot and pe
 
 Reference: https://cran.r-project.org/web/packages/metafor/metafor.pdf, https://cran.r-project.org/web/packages/meta/meta.pdf
 
-### How to use
+### Usage
 1. Create CSV file, name POCD.csv, then enter study(column: sequential numbers), trialnam(column: name of the study), tcases(column: number of patients with APOE4 and POCD),
 tnoncases(column: number of patients with APOE4 without POCD), ttotal(column: number of patients with APOE4),
 ccases(column: number of patients without APOE4 with POCD), cnoncases(column: number of patients without APOE4 and POCD),
