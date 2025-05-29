@@ -17,6 +17,6 @@ tnoncases(column: number of patients with APOE4 without POCD), ttotal(column: nu
 ccases(column: number of patients without APOE4 with POCD), cnoncases(column: number of patients without APOE4 and POCD),
 ctotal(column: number of patients without POCD), and subgroup(column: name of the subgroup, ex: type of surgery) into the first row
 
-2. Replace `C:/Users/Steven/Desktop` in the 2th line and the 11th line with your working directory
+2. Replace `C:/Users/Steven/Desktop` in the 2th line and the 11th line with working directory
 
 3. Run the codes from top to bottom, then the forrest plot, subgroup analysis, contour-enhanced funnel plot, and Egger's test with regression line in the funnel plot appear
