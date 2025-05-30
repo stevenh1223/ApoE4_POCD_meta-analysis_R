@@ -1,6 +1,6 @@
 # APOE4 and Postoperative Cognitive Dysfunction (POCD) – Meta-Analysis
 
-This repository contains R code and data for a meta-analysis assessing the association between the APOE4 gene and postoperative cognitive dysfunction (POCD).
+This repository contains R code and data for a meta-analysis assessing the association between the APOE4 gene and short- and medium-term postoperative cognitive dysfunction (POCD).
 
 ## 📄 Publication
 
