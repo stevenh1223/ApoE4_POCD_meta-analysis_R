@@ -1,0 +1,7 @@
+study,trialnam,pubyr,surgery,tcases,ttotal,ccases,ctotal,design,cogtest,country
+1,Abildstrom 2004,2004,non-cardiac/vascular,29,247,64,648,retrospective,other,other
+2,Askar 2005,2005,cardiac/vascular,10,17,27,56,prospective,other,MED
+3,Bryson 2011,2011,cardiac/vascular,12,18,36,60,prospective,other,other
+4,Cai 2012,2012,non-cardiac/vascular,128,574,138,1426,prospective,mmse,other
+5,Lelis 2006,2006,cardiac/vascular,2,19,5,68,prospective,mmse,other
+6,Rentowl 2004,2004,non-cardiac/vascular,1,8,1,25,prospective,other,other

@@ -1,0 +1,8 @@
+study,trialnam,pubyr,latitude,number,age,sexmale,time,CIexcluded,surgery,tcases,tnoncases,ccases,cnoncases,ttotal,ctotal,country
+1,Abelha 2012,2012,41,173,64,0.53,1,yes,non-cardiac/vascular,1,23,25,124,24,149,Portugal
+2,Bryson 2011,2011,45,83,71.1,0.736,7,yes,cardiac/vascular,9,11,21,42,20,63,other
+3,Cunningham 2017,2017,55,311,74.4,0.432,3,yes,non-cardiac/vascular,12,66,28,205,78,233,other
+4,Guenther 2013,2013,51,191,70,0.665,7,no,cardiac/vascular,18,45,33,95,63,128,other
+5,Leung 2007,2007,38,190,72.5,0.515,2,no,non-cardiac/vascular,13,33,16,128,46,144,other
+6,Tagarakis 2007,2007,41,137,69.5,0.722,30,no,cardiac/vascular,10,23,31,73,33,104,other
+7,Vasunilashorn 2015,2015,42,557,76.6,0.42,1095,yes,non-cardiac/vascular,26,82,106,343,108,449,other

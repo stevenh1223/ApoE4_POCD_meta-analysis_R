@@ -1,0 +1,11 @@
+study,trialnam,pubyr,surgery,tcases,ttotal,ccases,ctotal,design,CIexcluded,country
+1,Abildstrom 2004,2004,non-cardiac/vascular,23,224,52,618,retrospective,yes,other
+2,Askar 2005,2005,cardiac/vascular,5,17,21,56,prospective,yes,MED
+3,Bryson 2011,2011,cardiac/vascular,2,16,2,53,prospective,yes,other
+4,Deiner 2015,2015,non-cardiac/vascular,4,14,17,63,retrospective,yes,other
+5,Heyer 2005,2005,cardiac/vascular,5,12,3,63,retrospective,no,other
+6,Klinger 2018,2018,cardiac/vascular,4,7,7,27,prospective,yes,other
+7,McDonagh 2010,2010,non-cardiac/vascular,43,76,144,274,prospective,no,other
+8,Rentowl 2004,2004,non-cardiac/vascular,1,8,3,22,prospective,yes,other
+9,Shoair 2015,2015,non-cardiac/vascular,5,14,6,54,prospective,yes,other
+10,Silbert 2008,2008,cardiac/vascular,11,83,22,199,retrospective,no,other
