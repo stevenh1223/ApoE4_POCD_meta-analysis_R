@@ -1,22 +1,64 @@
-# ApoE4_POCD_meta-analysis_R
+# APOE4 and Postoperative Cognitive Dysfunction (POCD) – Meta-Analysis
 
-### The background 
-R script used for the meta-analysis conducted to investigate whether APOE4 was associated with postoperative congnitive dysfunction(POCD) or delirium(POD) occurrence in short- or medium-term among surgical patients
+This repository contains R code and data for a meta-analysis assessing the association between the APOE4 gene and postoperative cognitive dysfunction (POCD).
 
-Performed main analyses using R (version 4.1.0) via RStudio (RStudio Team, 2021, version 1.4.1717) 
+## 📄 Publication
 
-Computed odds ratio, statistical heterogeneity and subgroup analysis with forest plot carried out by function “metabin” and “forest” in package “meta” version 6.0.0
+- **Title:** Apolipoprotein E4 allele is genetically associated with risk of the short- and medium-term postoperative cognitive dysfunction: A meta-analysis and trial sequential analysis
+- **Journal:** PLOS ONE
+- **Authors:** Wei-Jen Hsiao (First Author)
+- **Link:** [PLOS ONE Publication](https://doi.org/10.1371/journal.pone.0282214)
 
-Examined small-study effect by evaluating the symmetry of the funnel plot and performing Egger’s test using function “regtest” and “funnel” in package “metafor” version 3.8.1
+## 📁 Project Structure
 
-Reference: https://cran.r-project.org/web/packages/metafor/metafor.pdf, https://cran.r-project.org/web/packages/meta/meta.pdf
+```
+.
+├── ApoE4.R                 # Main analysis script
+├── pocd_1week.csv          # Data for 1-week POCD meta-analysis
+├── pocd_1-3months.csv      # Data for 1-3 months POCD meta-analysis
+├── pocd_1year.csv          # Data for 1-year POCD meta-analysis
+├── delirium.csv            # Data for post-op delirium meta-analysis
+└── README.md               # Project description
+```
 
-### Usage
-1. Create CSV file, name POCD.csv, then enter study(column: sequential numbers), trialnam(column: name of the study), tcases(column: number of patients with APOE4 and POCD),
-tnoncases(column: number of patients with APOE4 without POCD), ttotal(column: number of patients with APOE4),
-ccases(column: number of patients without APOE4 with POCD), cnoncases(column: number of patients without APOE4 and POCD),
-ctotal(column: number of patients without POCD), and subgroup(column: name of the subgroup, ex: type of surgery) into the first row
+## 📊 Statistical Methods Used
 
-2. Replace `C:/Users/Steven/Desktop` in the 2th line and the 11th line with working directory
+- **Random-effects meta-analysis** using `meta` and `metafor` packages
+- **Subgroup analysis** by type of surgery
+- **Funnel plot** with contour enhancement to assess publication bias
+- **Egger’s regression test** to statistically test for publication bias
 
-3. Run the codes from top to bottom, then the forrest plot, subgroup analysis, contour-enhanced funnel plot, and Egger's test with regression line in the funnel plot appear
+## 🧠 Key Skills Demonstrated
+
+- Effect size estimation and heterogeneity quantification
+- Visualization: forest plots, funnel plots
+- Hypothesis testing and publication bias analysis
+- R programming: `meta`, `metafor` packages
+
+## ▶️ How to Run
+
+1. Open `ApoE4.R` in **RStudio**
+2. Make sure the required packages are installed:
+   ```r
+   install.packages("meta")
+   install.packages("metafor")
+   ```
+3. Run the script to perform meta-analysis and visualize results.
+
+## 📈 Funnel Plot Example
+
+To generate:
+```r
+funnel(res, yaxis = "seinv", level = c(90, 95, 99), shade = c("white", "gray55", "gray75"))
+```
+
+To save:
+```r
+png("funnel_plot.png", width = 800, height = 600)
+funnel(res, yaxis = "seinv", level = c(90, 95, 99), shade = c("white", "gray55", "gray75"))
+dev.off()
+```
+
+---
+
+This project showcases clinical data analysis and publication-quality research using R, applicable to data-driven roles in quantitative finance and beyond.
