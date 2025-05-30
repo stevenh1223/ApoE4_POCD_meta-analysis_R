@@ -21,21 +21,21 @@ This repository contains R code and data for a meta-analysis assessing the assoc
 └── README.md               # Project description
 ```
 
-## 📊 Statistical Methods Used
+## Statistical Methods Used
 
 - **Random-effects meta-analysis** using `meta` and `metafor` packages
 - **Subgroup analysis** by type of surgery
 - **Funnel plot** with contour enhancement to assess publication bias
 - **Egger’s regression test** to statistically test for publication bias
 
-## 🧠 Key Skills Demonstrated
+## Key Skills Demonstrated
 
 - Effect size estimation and heterogeneity quantification
 - Visualization: forest plots, funnel plots
 - Hypothesis testing and publication bias analysis
 - R programming: `meta`, `metafor` packages
 
-## ▶️ How to Run
+## How to Run
 
 1. Open `ApoE4.R` in **RStudio**
 2. Make sure the required packages are installed:
@@ -45,7 +45,7 @@ This repository contains R code and data for a meta-analysis assessing the assoc
    ```
 3. Run the script to perform meta-analysis and visualize results.
 
-## 📈 Funnel Plot Example
+## Funnel Plot Example
 
 To generate:
 ```r
