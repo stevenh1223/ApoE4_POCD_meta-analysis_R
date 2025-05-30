@@ -2,14 +2,14 @@
 
 This repository contains R code and data for a meta-analysis assessing the association between the APOE4 gene and short- and medium-term postoperative cognitive dysfunction (POCD).
 
-## 📄 Publication
+## Publication
 
 - **Title:** Apolipoprotein E4 allele is genetically associated with risk of the short- and medium-term postoperative cognitive dysfunction: A meta-analysis and trial sequential analysis
 - **Journal:** PLOS ONE
 - **Authors:** Wei-Jen Hsiao (First Author), et al.
 - **Link:** [PLOS ONE Publication](https://doi.org/10.1371/journal.pone.0282214)
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 .
