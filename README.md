@@ -88,4 +88,16 @@ limitations under the License.
 
 ---
 
-This project demonstrates rigorous clinical data analysis using R, with statistical methods and reproducibility standards applicable to data-intensive roles in quantitative finance and beyond.
+## Relevance to Quantitative Finance
+
+This project demonstrated:
+
+- Expertise in hypothesis testing and statistical inference  
+- Risk quantification under heterogeneous and sparse data conditions  
+- Data-driven decision-making under uncertainty  
+
+These analytical skills are directly applicable to:
+
+- Quantitative finance  
+- Systematic risk management  
+- High-stakes decision frameworks in volatile environments
